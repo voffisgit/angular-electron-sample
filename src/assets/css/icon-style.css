@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?m72cup');
+    src: url('../fonts/icomoon.eot?m72cup#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?m72cup') format('truetype'),
+        url('../fonts/icomoon.woff?m72cup') format('woff'),
+        url('../fonts/icomoon.svg?m72cup#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-round:before {
+    content: "\e900";
+}
+
+.icon-add-user:before {
+    content: "\e901";
+}
+
+.icon-arrow-left:before {
+    content: "\e902";
+}
+
+.icon-attached:before {
+    content: "\e903";
+}
+
+.icon-bell:before {
+    content: "\e904";
+}
+
+.icon-calculate:before {
+    content: "\e905";
+}
+
+.icon-calender:before {
+    content: "\e906";
+}
+
+.icon-call-phone:before {
+    content: "\e907";
+}
+
+.icon-chat:before {
+    content: "\e908";
+}
+
+.icon-checkbox:before {
+    content: "\e909";
+}
+
+.icon-checked:before {
+    content: "\e90a";
+}
+
+.icon-close:before {
+    content: "\e90b";
+}
+
+.icon-conference:before {
+    content: "\e90c";
+}
+
+.icon-copy:before {
+    content: "\e90d";
+}
+
+.icon-create-group:before {
+    content: "\e90e";
+}
+
+.icon-dashboard:before {
+    content: "\e90f";
+}
+
+.icon-delete:before {
+    content: "\e910";
+}
+
+.icon-department:before {
+    content: "\e911";
+}
+
+.icon-discard:before {
+    content: "\e912";
+}
+
+.icon-dotted:before {
+    content: "\e913";
+}
+
+.icon-double-tick:before {
+    content: "\e914";
+}
+
+.icon-edit:before {
+    content: "\e915";
+}
+
+.icon-employee:before {
+    content: "\e916";
+}
+
+.icon-employee-highlight:before {
+    content: "\e917";
+}
+
+.icon-employee-sitting:before {
+    content: "\e918";
+}
+
+.icon-grid:before {
+    content: "\e919";
+}
+
+.icon-horzintal-dots:before {
+    content: "\e91a";
+}
+
+.icon-invite:before {
+    content: "\e91b";
+}
+
+.icon-join:before {
+    content: "\e91c";
+}
+
+.icon-join-voice:before {
+    content: "\e91d";
+}
+
+.icon-label:before {
+    content: "\e91e";
+}
+
+.icon-left-arrow:before {
+    content: "\e91f";
+}
+
+.icon-lock:before {
+    content: "\e920";
+}
+
+.icon-logout:before {
+    content: "\e921";
+}
+
+.icon-minus-round:before {
+    content: "\e922";
+}
+
+.icon-missed-call:before {
+    content: "\e923";
+}
+
+.icon-monitor:before {
+    content: "\e924";
+}
+
+.icon-mute:before {
+    content: "\e925";
+}
+
+.icon-network:before {
+    content: "\e926";
+}
+
+.icon-office:before {
+    content: "\e927";
+}
+
+.icon-pause:before {
+    content: "\e928";
+}
+
+.icon-play:before {
+    content: "\e929";
+}
+
+.icon-plus-round:before {
+    content: "\e92a";
+}
+
+.icon-projects:before {
+    content: "\e92b";
+}
+
+.icon-read-confirm:before {
+    content: "\e92c";
+}
+
+.icon-record:before {
+    content: "\e92d";
+}
+
+.icon-reminder:before {
+    content: "\e92e";
+}
+
+.icon-right-arrow:before {
+    content: "\e92f";
+}
+
+.icon-save:before {
+    content: "\e930";
+}
+
+.icon-scrum-board:before {
+    content: "\e931";
+}
+
+.icon-search:before {
+    content: "\e932";
+}
+
+.icon-send:before {
+    content: "\e933";
+}
+
+.icon-share-screen:before {
+    content: "\e934";
+}
+
+.icon-structure:before {
+    content: "\e935";
+}
+
+.icon-tasks:before {
+    content: "\e936";
+}
+
+.icon-team:before {
+    content: "\e937";
+}
+
+.icon-thumb-refresh:before {
+    content: "\e938";
+}
+
+.icon-tick:before {
+    content: "\e939";
+}
+
+.icon-user:before {
+    content: "\e93a";
+}
+
+.icon-user-confirm:before {
+    content: "\e93b";
+}
+
+.icon-user-round:before {
+    content: "\e93c";
+}
+
+.icon-users-group:before {
+    content: "\e93d";
+}
+
+.icon-video:before {
+    content: "\e93e";
+}
+
+.icon-voice:before {
+    content: "\e93f";
+}

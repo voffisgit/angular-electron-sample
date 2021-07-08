@@ -13,7 +13,8 @@ function createWindow () {
     }
   });
 
-  mainWindow.loadFile('index.html');
+  mainWindow.loadFile('src/index.html');
+  
 }
 
 app.whenReady().then(() => {

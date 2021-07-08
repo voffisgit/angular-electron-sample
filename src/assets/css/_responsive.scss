@@ -1,0 +1,42 @@
+@media(min-width:1601px) {
+
+    #left-sidebar-toggle {
+        transform: translateX(-400px);
+
+        #left-sidebar-arrow {
+            right: -5px;
+        }
+
+    }
+
+    body.left-slide-toggle-open {
+
+        #left-sidebar-toggle {
+
+            #left-sidebar-arrow {
+                right: -15px;
+            }
+
+        }
+
+    }
+
+    .member-img-grid-col {
+        max-width: 16.6666%;
+
+        &:first-child {
+            max-width: 33.3333%;
+        }
+        
+        &.video-conference-main {
+            max-width: 80%;
+        }
+
+
+    }
+
+
+
+
+
+}

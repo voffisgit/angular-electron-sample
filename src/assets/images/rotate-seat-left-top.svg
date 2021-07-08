@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.574" height="27.764" viewBox="0 0 27.574 27.764">
+  <g id="Group_4677" data-name="Group 4677" transform="translate(0.506 27.261) rotate(-90)">
+    <g id="Group_4246" data-name="Group 4246">
+      <path id="Path_2161" data-name="Path 2161" d="M18.19.01,25.6,10.236s3.9,8.49-4.791,14.51c0,0-7.863,3.926-13.87-1.861L0,12.854s-.038-1.742,2.163-1.44L16.109,1.567A1.71,1.71,0,0,1,18.19.01Z" transform="translate(0.28 0.263)" fill="#fff" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="LWPOLYLINE" transform="translate(11.296 1.586)">
+        <g id="Group_4239" data-name="Group 4239">
+          <g id="Group_4238" data-name="Group 4238">
+            <path id="Path_2162" data-name="Path 2162" d="M5.062.008a.133.133,0,0,0-.123.017.134.134,0,0,0-.032.187L10.915,8.72A8.4,8.4,0,0,1,.2,21.032a.128.128,0,0,0-.181.058.135.135,0,0,0,.057.18A8.67,8.67,0,0,0,11.134,8.565L5.125.057A.129.129,0,0,0,5.062.008Z" fill="#fff" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="ARC" transform="translate(8.241 19.942)">
+        <g id="Group_4241" data-name="Group 4241">
+          <g id="Group_4240" data-name="Group 4240">
+            <path id="Path_2163" data-name="Path 2163" d="M.179.008a.134.134,0,0,0-.155.2C.055.256.088.3.12.346A.137.137,0,0,0,.308.375.133.133,0,0,0,.337.188L.244.058A.127.127,0,0,0,.179.008Z" fill="#fff" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="LINE" transform="translate(2.232 11.433)">
+        <g id="Group_4243" data-name="Group 4243">
+          <g id="Group_4242" data-name="Group 4242">
+            <path id="Path_2164" data-name="Path 2164" d="M.179.008A.133.133,0,0,0,.056.025.136.136,0,0,0,.024.212L6.033,8.72a.134.134,0,1,0,.219-.155L.243.057A.136.136,0,0,0,.179.008Z" fill="#fff" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="LWPOLYLINE-2" data-name="LWPOLYLINE">
+        <g id="Group_4245" data-name="Group 4245">
+          <g id="Group_4244" data-name="Group 4244">
+            <path id="Path_2165" data-name="Path 2165" d="M18.653.066l6.009,8.509A11.4,11.4,0,1,1,6.034,21.729L.025,13.22A.135.135,0,0,1,0,13.11a2.225,2.225,0,0,1,2.324-1.68L16.194,1.639A2.228,2.228,0,0,1,18.556.01a.147.147,0,0,1,.033.008A.131.131,0,0,1,18.653.066ZM6.253,21.574A11.133,11.133,0,0,0,24.442,8.731L18.47.273a1.957,1.957,0,0,0-2.029,1.48.134.134,0,0,1-.053.077L2.443,11.677a.128.128,0,0,1-.09.023A1.958,1.958,0,0,0,.28,13.117Z" fill="#fff" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <ellipse id="Ellipse_354" data-name="Ellipse 354" cx="4.159" cy="1.094" rx="4.159" ry="1.094" transform="matrix(0.799, -0.601, 0.601, 0.799, 12.933, 18.308)" fill="#fff" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

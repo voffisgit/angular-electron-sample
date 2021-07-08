@@ -1,0 +1,602 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-Thin.eot');
+    src: url('../../fonts/CeraPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-Thin.woff2') format('woff2'),
+        url('../../fonts/CeraPro-Thin.woff') format('woff'),
+        url('../../fonts/CeraPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-ThinItalic.eot');
+    src: url('../../fonts/CeraPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-ThinItalic.woff2') format('woff2'),
+        url('../../fonts/CeraPro-ThinItalic.woff') format('woff'),
+        url('../../fonts/CeraPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-Light.eot');
+    src: url('../../fonts/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-Light.woff2') format('woff2'),
+        url('../../fonts/CeraPro-Light.woff') format('woff'),
+        url('../../fonts/CeraPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-LightItalic.eot');
+    src: url('../../fonts/CeraPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-LightItalic.woff2') format('woff2'),
+        url('../../fonts/CeraPro-LightItalic.woff') format('woff'),
+        url('../../fonts/CeraPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-Regular.eot');
+    src: url('../../fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-Regular.woff2') format('woff2'),
+        url('../../fonts/CeraPro-Regular.woff') format('woff'),
+        url('../../fonts/CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-Italic.eot');
+    src: url('../../fonts/CeraPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-Italic.woff2') format('woff2'),
+        url('../../fonts/CeraPro-Italic.woff') format('woff'),
+        url('../../fonts/CeraPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-Medium.eot');
+    src: url('../../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-Medium.woff2') format('woff2'),
+        url('../../fonts/CeraPro-Medium.woff') format('woff'),
+        url('../../fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-MediumItalic.eot');
+    src: url('../../fonts/CeraPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-MediumItalic.woff2') format('woff2'),
+        url('../../fonts/CeraPro-MediumItalic.woff') format('woff'),
+        url('../../fonts/CeraPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-Bold.eot');
+    src: url('../../fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-Bold.woff2') format('woff2'),
+        url('../../fonts/CeraPro-Bold.woff') format('woff'),
+        url('../../fonts/CeraPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-BoldItalic.eot');
+    src: url('../../fonts/CeraPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-BoldItalic.woff2') format('woff2'),
+        url('../../fonts/CeraPro-BoldItalic.woff') format('woff'),
+        url('../../fonts/CeraPro-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-Black.eot');
+    src: url('../../fonts/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-Black.woff2') format('woff2'),
+        url('../../fonts/CeraPro-Black.woff') format('woff'),
+        url('../../fonts/CeraPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../../fonts/CeraPro-BlackItalic.eot');
+    src: url('../../fonts/CeraPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/CeraPro-BlackItalic.woff2') format('woff2'),
+        url('../../fonts/CeraPro-BlackItalic.woff') format('woff'),
+        url('../../fonts/CeraPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+// Fonts Family
+$fa-font: 'FontAwesome';
+$primary-font: 'Cera Pro';
+
+
+//Colors
+$body-t-color: #7f7f7f;
+$body-d-color: #616262;
+$blue-color: #544EF6;
+$blue-d-color: #020041;
+$blue-d-color2: #0C1B3C;
+$blue-b-color: #353367;
+$blue-b-color2: #7671f8;
+$blue-b-color3: #4EAFF6;
+$blue-l-color: #DDDBFD;
+$blue-l-color1: #EDEDFE;
+$blue-l-color-1-1: #BAB8FB;
+$blue-l-color2: #32366b;
+$blue-d-l-color: #1C1A54;
+$black-color: #000;
+$white-color: #fff;
+$red-color: #FC6F6F;
+$red-l-color: #FFF0F0;
+$red-d-color: #DC4F4F;
+$red-b-color: #FC1F1F;
+$pink-color: #FF7EA3;
+$pink-color2: #F5C8CF;
+$pink-d-color: #CB5F5F;
+$green-color: #07D755;
+$green-color2: #0FC796;
+$yellow-color: #FFEF3F;
+$yellow-color2: #FADE71;
+$yellow-d-color: #936C15;
+$gray-color: #C5CFE6;
+$gray-l-bg: #EDF0F7;
+$gray-d-bg: #B9B6B6;
+
+
+//Dark theme Colors
+$text-gray-primary: #ccc;
+$gray-light-primary: #5D5D5D;
+$gray-dark-primary: #343434;
+$gray-light-secondary: #7f7f7f;
+$gray-dark-secondary: #444;
+$gray-border-primary: #555;
+$white-color-primary: #fff;
+
+
+
+// Font Size
+$font-s-10: 10px;
+$font-s-12: 12px;
+$font-s-14: 14px;
+$font-s-16: 16px;
+$font-s-18: 18px;
+$font-s-21: 21px;
+$font-s-24: 24px;
+$font-s-26: 26px;
+$font-s-28: 28px;
+$font-s-30: 30px;
+$font-s-32: 32px;
+$font-s-34: 34px;
+$font-s-36: 36px;
+$font-s-38: 38px;
+$font-s-40: 40px;
+$font-s-42: 42px;
+$font-s-44: 44px;
+$font-s-46: 46px;
+$font-s-48: 48px;
+$font-s-50: 50px;
+$font-s-52: 52px;
+$font-s-54: 54px;
+$font-s-56: 56px;
+$font-s-58: 58px;
+$font-s-60: 60px;
+
+
+//Container Width
+$lg-width: 1560px;
+$md-width: 1360px;
+
+
+//Border Radius
+$border-radius-1: 20px;
+$border-radius-2: 200px;
+$border-radius-3: 50%;
+$border-radius-4: 27px;
+$border-radius-5: 10px;
+$border-radius-6: 8px;
+
+
+// Media queries
+$min-width-1601: 1601px;
+$min-width-992: 992px;
+$min-width-768: 768px;
+$max-width-1920: 1920px;
+$max-width-1680: 1680px;
+$max-width-1440: 1440px;
+$max-width-1366: 1366px;
+$max-width-1280: 1280px;
+$max-width-1199: 1199px;
+$max-width-1080: 1080px;
+$max-width-1024: 1024px;
+$max-width-991: 991px;
+$max-width-880: 880px;
+$max-width-767: 767px;
+$max-width-575: 575px;
+$max-width-480: 480px;
+$max-width-414: 414px;
+$max-width-375: 375px;
+
+// Media queries Mixin 
+
+@mixin min-screen-1601 {
+    @media(min-width: #{$min-width-1601}) {
+        @content;
+    }
+}
+
+@mixin min-screen-992 {
+    @media(min-width: #{$min-width-992}) {
+        @content;
+    }
+}
+
+@mixin min-screen-768 {
+    @media(min-width: #{$min-width-768}) {
+        @content;
+    }
+}
+
+@mixin max-screen-1366 {
+    @media(max-width: #{$max-width-1366}) {
+        @content;
+    }
+}
+
+
+@mixin max-screen-1280 {
+    @media(max-width: #{$max-width-1280}) {
+        @content;
+    }
+}
+
+@mixin max-screen-1199 {
+    @media(max-width: #{$max-width-1199}) {
+        @content;
+    }
+}
+
+@mixin max-screen-1080 {
+    @media(max-width: #{$max-width-1080}) {
+        @content;
+    }
+}
+
+@mixin max-screen-1024 {
+    @media(max-width: #{$max-width-1024}) {
+        @content;
+    }
+}
+
+@mixin max-screen-991 {
+    @media(max-width: #{$max-width-991}) {
+        @content;
+    }
+}
+
+@mixin max-screen-880 {
+    @media(max-width: #{$max-width-880}) {
+        @content;
+    }
+}
+
+@mixin max-screen-767 {
+    @media(max-width: #{$max-width-767}) {
+        @content;
+    }
+}
+
+@mixin max-screen-575 {
+    @media(max-width: #{$max-width-575}) {
+        @content;
+    }
+}
+
+@mixin max-screen-480 {
+    @media(max-width: #{$max-width-480}) {
+        @content;
+    }
+}
+
+@mixin max-screen-414 {
+    @media(max-width: #{$max-width-414}) {
+        @content;
+    }
+}
+
+@mixin max-screen-375 {
+    @media(max-width: #{$max-width-375}) {
+        @content;
+    }
+}
+
+
+// Animations
+@mixin hover-speed() {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin hover-speed-2() {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+
+// Flex Style
+@mixin flexbox-style() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+// Default Div Style
+@mixin defautl-div-style() {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+@mixin defautl-div-style2() {
+    width: 100%;
+    display: inline-block;
+}
+
+
+// UI Style
+@mixin ul-style() {
+    @include defautl-div-style();
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin ul-style-1() {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+// Default Section Heading 
+
+@mixin section-heading() {
+    @include defautl-div-style();
+    margin: 0 0 25px 0;
+    padding: 0;
+    color: $dark-color;
+    font-size: $font-s-32;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@mixin option-button-toggle() {
+    button {
+        background: none;
+        border: none;
+        position: relative;
+        z-index: 1;
+
+        &.dropdown-toggle {
+            width: 14px;
+            outline: none;
+            background: none;
+            border: none;
+            color: $gray-color;
+            padding: 0;
+
+            svg {
+                width: 14px;
+                height: 14px;
+            }
+
+            svg,
+            g,
+            circle,
+            path {
+                fill: $gray-color;
+            }
+
+            &::after {
+                display: none;
+            }
+        }
+
+
+        p {
+            font-size: $font-s-10;
+        }
+    }
+
+    .dropdown-menu {
+        min-width: 190px;
+        transform: translate3d(0, 24px, 0px) !important;
+        left: auto !important;
+        right: 0;
+
+        svg {
+            width: 14px;
+            height: 14px;
+            margin: 0 3px 0 0;
+        }
+
+        a {
+            &.dropdown-item {
+                padding: 5px 15px;
+                color: $black-color;
+                text-decoration: none;
+                background: none;
+                outline: none;
+                font-size: $font-s-14;
+
+                svg,
+                g,
+                circle,
+                path {
+                    fill: $blue-color;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+/*----------- Typography -------------*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a {
+    color: $blue-color;
+    text-decoration: none;
+    @include hover-speed();
+
+    &:hover {
+        color: $black-color;
+        text-decoration: none;
+    }
+
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $primary-font;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.container {
+    max-width: $md-width;
+}
+
+
+.gray-c {
+    color: $body-t-color;
+}
+
+.blue-c {
+    color: $blue-color;
+}
+
+.red-c {
+    color: $red-color;
+}
+
+
+.hide {
+    display: none !important;
+}
+
+
+button,
+input,
+select {
+    outline: 0;
+
+    &:focus {
+        box-shadow: none;
+        outline: 0;
+    }
+}
+
+
+
+.gj-picker-bootstrap table tr td.selected.gj-cursor-pointer div {
+    background-color: $blue-color;
+    border-color: $blue-color;
+    @include hover-speed();
+}
+
+.gj-picker-bootstrap table tr td.today div {
+    color: $blue-color;
+    @include hover-speed();
+}
+
+.gj-picker-bootstrap table tr td.focused div,
+.gj-picker-bootstrap table tr td.gj-cursor-pointer div:hover {
+    color: $white-color;
+    background-color: $blue-color;
+    border-color: $blue-color;
+}
+
+
+.gj-picker-bootstrap table tr td.other-month div {
+    color: $body-d-color;
+    background: $white-color;
+    border-color: $white-color;
+    @include hover-speed();
+
+    &:hover {
+        color: $white-color;
+        background-color: $blue-color;
+        border-color: $blue-color;
+    }
+
+}

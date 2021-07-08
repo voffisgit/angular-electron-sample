@@ -113,5 +113,8 @@
       }
     }
   },
-  "defaultProject": "angular-electron-sample"
+  "defaultProject": "angular-electron-sample",
+  "cli": {
+    "analytics": "6dc1a52c-8cd7-4080-a202-0cd09ed3d264"
+  }
 }

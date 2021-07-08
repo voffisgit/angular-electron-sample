@@ -8,9 +8,9 @@ import { environment } from '../environments/environment';
 import { PirateService } from './pirate.service';
 import { PirateLocalService } from './pirate-local.service';
 
-const pirateFactory = (http: HttpClient, electron: ElectronService) => {
-  return !environment.desktop ? new PirateService(http) : new PirateLocalService(electron);
-};
+// const pirateFactory = (http: HttpClient, electron: ElectronService) => {
+//   return !environment.desktop ? new PirateService(http) : new PirateLocalService(electron);
+// };
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ const pirateFactory = (http: HttpClient, electron: ElectronService) => {
     NgxElectronModule
   ],
   providers: [
-    { provide: PirateService, useFactory: pirateFactory, deps: [HttpClient, ElectronService] },
+    { provide: PirateService, deps: [HttpClient, ElectronService] },
   ],
   bootstrap: [AppComponent]
 })

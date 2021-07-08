@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="40.67" viewBox="0 0 80 40.67">
+  <g id="Group_4914" data-name="Group 4914" transform="translate(0.406 0.535)">
+    <g id="Group_4912" data-name="Group 4912" transform="translate(39.987)">
+      <path id="Path_2202" data-name="Path 2202" d="M796.945,192.583V154.06s-32.1,2.161-38.523,38.148" transform="translate(-757.934 -154.06)" fill="none" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+      <g id="Rectangle_6651" data-name="Rectangle 6651" transform="translate(0 37.06)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="38.523" height="1.951" stroke="none"/>
+        <rect x="0.5" y="0.5" width="37.523" height="0.951" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_4913" data-name="Group 4913" transform="translate(0.976)">
+      <path id="Path_2202-2" data-name="Path 2202" d="M758.422,192.583V154.06s32.1,2.161,38.523,38.148" transform="translate(-758.422 -154.06)" fill="none" stroke="#b2b2b2" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+      <g id="Rectangle_6651-2" data-name="Rectangle 6651" transform="translate(0.488 37.06)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="38.523" height="1.951" stroke="none"/>
+        <rect x="0.5" y="0.5" width="37.523" height="0.951" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle_6654" data-name="Rectangle 6654" transform="translate(-0.406 38.136)" fill="#fff" stroke="#fff" stroke-width="0.2">
+      <rect width="80" height="2" stroke="none"/>
+      <rect x="0.1" y="0.1" width="79.8" height="1.8" fill="none"/>
+    </g>
+  </g>
+</svg>
